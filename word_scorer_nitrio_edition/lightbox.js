@@ -13,6 +13,7 @@ chrome.runtime.onMessage.addListener(
         lb.parentNode.removeChild( lb );
       }
       getURLInfo = function(callback) {
+        // TODO: in a HTTPS site, switch to the secure protocol
         xhr.open("GET", "http://localhost:3000/score_word/"+request.word, true);
         xhr.onreadystatechange = function() {
           if (xhr.readyState == 4) {
