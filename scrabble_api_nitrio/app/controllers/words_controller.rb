@@ -9,4 +9,10 @@ class WordsController < ApplicationController
     return render json: result
   end
 
+  # Root.  GET /
+  #
+  # Returns a json response.
+  def welcome
+
+  end
 end
