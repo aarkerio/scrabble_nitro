@@ -1,0 +1,29 @@
+{
+  "name": "Scrabble Word Nitri",
+  "description": "Select a word and know the score",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "contextMenus",
+    "<all_urls>",
+    "tabs",
+    "http://localhost:3000/*",
+    "https://localhost:3000/*",
+    "http://localhost/*",
+    "https://localhost/*"
+  ],
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "icons": {
+      "16": "small_icon.png"
+  },
+   "content_scripts": [
+     {
+       "matches": ["<all_urls>"],
+       "js": ["lightbox.js"],
+       "css": ["lightbox.css"],
+       "all_frames": false
+     }
+   ]
+}
