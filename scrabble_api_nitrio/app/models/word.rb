@@ -52,7 +52,10 @@ class Word < ApplicationRecord
     characters.each do |w|
        letterSet.each do |lett|
          key, value = lett.first
-         score = score + key  unless value.scan(w).empty?
+         unless value.scan(w).empty?
+           score = score + key
+           break
+         end
        end
     end
     score
