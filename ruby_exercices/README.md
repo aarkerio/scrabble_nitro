@@ -1,11 +1,11 @@
 
-# TO SEE THE RESULTS PLEASE EXECUTE
+# RESULTS
 
 ## Challenge #1:
 
 Given a config file (config.txt):
 
-1)parse the configuration file using only the ruby standard library (no gems).
+1) parse the configuration file using only the ruby standard library (no gems).
 
 2) Parse the configuration items into a Hash.
 
@@ -13,7 +13,7 @@ Given a config file (config.txt):
 
 Answer:
 
-   $ ruby pars_config.rb
+     $ ruby pars_config.rb
 
 ## Challenge #2:
 
@@ -24,7 +24,8 @@ Answer:
 3) Implement it so that if you had to stop the program and restart, it will pick up from the total word counts that you started from.
 
 Answer:
-   $ ruby ruby_tweets.rb
+
+        $ ruby ruby_tweets.rb
 
 ## Challenge #3:
 
