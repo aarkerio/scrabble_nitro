@@ -1,4 +1,4 @@
-# scrabble_nitro
+# Scrabble Chrome/Rails extension
 
 # Challenge:
 
