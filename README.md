@@ -1,5 +1,11 @@
 # scrabble_nitro
 
+# Challenge:
+
+Create a Chrome extension to verify that a word in the browser is valid in the english language. If it is, get the value for that word. Create a Rails API and connect it with the chrome extension.
+
+# Answer:
+
 1) Install the aspell dictionary with brew or apt-get
     ```bash
      brew install aspell --lang=en
@@ -19,4 +25,4 @@
 
 5) Load a page in a non HTTPS site. Select a word, active the contextual menu. Voila!
 
-Since we are not configured our secure layer, the page can't be from a secure site.
+(Since we are not configured our secure layer, the page can't be from a secure site.)
