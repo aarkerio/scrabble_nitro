@@ -1,0 +1,18 @@
+# Given a file with the following contents:
+
+# This is what a comment looks like, ignore it
+    # All these config lines are valid
+host = test.com
+server_id=55331
+server_load_alarm=2.5
+server_load_call=7.3
+user= john # comment can appear here as well
+verbose =true
+test_mode = on
+  # Another comment
+debug_mode = off
+server_https_id =  567331
+log_file_path = /tmp/logfile.log  # this comment
+send_notifications = yes
+
+
